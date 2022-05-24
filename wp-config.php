@@ -58,7 +58,7 @@ define( 'LOGGED_IN_SALT',   'b4Gf%f>eYF[78N|=#5JL$#td#jf-IxicuO{4gR)mr()T{R/xg=L
 define( 'NONCE_SALT',       'x:e2-#6G%^)Scb7pj H~Z?p3c2Z]2YBHD(IZ~{8iGTT,[l2t;l#Rft!t6d oD[i(' );
 
 /**#@-*/
-
+define('FS_METHOD', 'direct');
 /**
  * WordPress database table prefix.
  *

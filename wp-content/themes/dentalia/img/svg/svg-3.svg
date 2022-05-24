@@ -1,0 +1,4 @@
+<!-- Arc -->
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1440 36"> 
+	<path fill="{{svgBgColor}}" d="M0,0v36h1440V0c-211.975,22.064-457.834,35-720,35S211.975,22.064,0,0z"/>
+</svg>

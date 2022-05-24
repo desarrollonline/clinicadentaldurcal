@@ -1,0 +1,4 @@
+<!-- Half circle -->
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1440 36">
+	<path fill="{{svgBgColor}}" d="M720,0C457.834,0,211.975,12.936,0,35v1h1440v-1C1228.025,12.936,982.166,0,720,0z"/>
+</svg>

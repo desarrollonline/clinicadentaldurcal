@@ -1,0 +1,4 @@
+<!-- Big Wave -->
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1440 96">
+	<path fill="{{svgBgColor}}" d="M1440,96H0V48.396c120,30.149,240,45.223,360,45.223s240-15.074,360-45.223 C840,16.133,960,0,1080,0s240,16.133,360,48.396V96z"/>
+</svg>

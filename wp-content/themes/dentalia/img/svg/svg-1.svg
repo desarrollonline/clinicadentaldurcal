@@ -1,0 +1,5 @@
+<!-- Arrow -->
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1440 36">
+ <path fill="{{svgBgColor}}" d="M1437,0h-7H758c-1.65,0-3.955,0.955-5.121,2.121L722.12,32.879c-1.167,1.167-3.076,1.166-4.242,0
+	L687.121,2.122C685.955,0.955,683.65,0,682,0H10H3H0v3v30v3h3h7h1420h7h3v-3V3V0H1437z"/>
+</svg>

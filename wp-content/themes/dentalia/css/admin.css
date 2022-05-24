@@ -1,0 +1,550 @@
+/************************************* O.o *************************************/
+/*                                  Admin scss                                 */
+/*******************************************************************************/
+.megabaricon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative; }
+
+.megabaricon:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  font-size: 24px;
+  top: 10px; }
+
+.megabaricon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative; }
+
+.megabaricon:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  background: #ccc; }
+
+.megabar-icons .siteorigin-widget-icon-selector-current > p > label {
+  line-height: 24px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 7px 15px; }
+
+.select2-container {
+  min-width: 100% !important; }
+
+/************************************* O.o *************************************/
+/*                                   Alerts                                    */
+/*******************************************************************************/
+.alert,
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.sent .wpcf7-response-output {
+  padding: 11px 15px;
+  margin-bottom: 24px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-size: 13px; }
+
+.alert-success, .wpcf7 form.sent .wpcf7-response-output {
+  background-color: #EBF5E0;
+  border-color: #83bf3f;
+  color: #4f7226; }
+
+.alert-info {
+  background-color: #D9EDFD;
+  border-color: #128ef2;
+  color: #085796; }
+
+.alert-warning {
+  background-color: #FFEDD4;
+  border-color: #f29000;
+  color: #593500; }
+
+.alert-danger, .wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+  background-color: #FBD9E4;
+  border-color: #ea296a;
+  color: #570923; }
+
+.alert-dismissable .close, .alert-dismissible .close {
+  top: 0;
+  right: 0; }
+
+/* mega menu clearfix */
+.menu-item-settings:before {
+  display: table;
+  content: ""; }
+
+.menu-item-settings:after {
+  display: table;
+  content: "";
+  clear: both; }
+
+/* redux */
+.redux-container .redux_field_th {
+  font-weight: 600;
+  padding: 20px 0;
+  display: block; }
+
+#dentalia-pattern li.redux-image-select {
+  max-width: 64px;
+  margin: 10px !important;
+  height: auto; }
+
+.widget-type-wrapper {
+  position: relative; }
+
+span.widget-icon.orion:before {
+  color: #c91d48;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  left: 0;
+  top: 0;
+  display: block;
+  line-height: 36px;
+  position: absolute; }
+
+span.widget-icon.orion:after {
+  content: 'OrionThemes.com';
+  color: #ccc;
+  font-size: 10px;
+  right: 5px;
+  bottom: 5px;
+  display: block;
+  line-height: 12px;
+  position: absolute;
+  font-family: "Open Sans",sans-serif;
+  font-weight: bold; }
+
+.find-image-button {
+  display: none !important; }
+
+/* revolution slider */
+.rs-update-notice-wrap {
+  display: none; }
+
+/* video url */
+.siteorigin-widget-form-main-orion-responsive-video-w .select-content-button {
+  display: none; }
+
+/* redux */
+.redux-container #redux-intro-text {
+  background: #ffffff;
+  padding: 10px 20px; }
+
+.redux-main .button {
+  margin-right: 6px; }
+
+tr.fold th:first-child {
+  border-left: 2px solid #007cba !important; }
+
+.redux-container .redux-group-tab {
+  margin-bottom: 20px; }
+
+.redux-container .redux-main {
+  border-left: none;
+  background-color: #f1f1f1; }
+
+.redux-container .redux-main h2 {
+  margin-bottom: 0; }
+
+.redux-container #info_bar, .redux-container #redux-footer {
+  background: #f1f1f1 !important;
+  padding: 12px 14px 12px 14px; }
+
+.redux-container .redux-main .form-table tr {
+  background: #ffffff; }
+
+.redux-container .redux-main .form-table tr th, .redux-container .redux-main .form-table tr td {
+  padding: 0 20px;
+  border-right: 1px solid #e7e7e7; }
+
+.redux-container .redux-main .form-table th {
+  background: #f8f8f8;
+  border-left: 2px solid #e7e7e7; }
+
+.redux-notice-field {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0 0 0;
+  border: 1px solid #E7E7E7;
+  border-left: 2px solid #E7E7E7;
+  box-shadow: none;
+  border-radius: 0; }
+
+.redux-notice-field p {
+  margin: 0;
+  padding: 0; }
+
+.redux-notice-field b {
+  color: #007cba;
+  font-size: 15px; }
+
+#recycle-pattern li.redux-image-select {
+  max-width: 64px;
+  margin: 10px !important;
+  height: auto; }
+
+.redux-field.wbc_importer {
+  background: #eeeeee; }
+
+#recycle-pattern li.redux-image-select {
+  max-width: 80px;
+  margin: 10px !important;
+  height: auto; }
+
+.redux-notice-field p {
+  margin: 0;
+  padding: 0; }
+
+/* end of redux */
+/* menus */
+.orion-mega-column .menu-item-handle {
+  background-color: #fff; }
+
+.orion-mega-error .menu-item-handle {
+  background-color: rgba(255, 0, 0, 0.2); }
+
+.menu.ui-sortable .menu-item .orion-no-link, .menu.ui-sortable .menu-item .orion-hide-title, .menu.ui-sortable .menu-item .orion-sidebars, .menu.ui-sortable .menu-item .orion-column-size {
+  display: none; }
+
+.menu.ui-sortable .menu-item.orion-mega-column .orion-no-link, .menu.ui-sortable .menu-item.orion-mega-column .orion-hide-title, .menu.ui-sortable .menu-item.orion-mega-column .orion-sidebars, .menu.ui-sortable .menu-item.orion-mega-column .orion-column-size {
+  display: block; }
+
+.menu.ui-sortable .menu-item.orion-mega-column .field-css-classes, .menu.ui-sortable .menu-item.orion-mega-column .field-move {
+  display: none !important; }
+
+.menu.ui-sortable .menu-item.orion-mega-column .mega-menu-label {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  display: block; }
+
+/* siteorigin custom styling */
+.siteorigin-widget-form .siteorigin-widget-field-type-section > label {
+  background-color: #696aca !important;
+  border-color: #696aca !important;
+  color: #ffffff !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-type-section .siteorigin-widget-section {
+  background-color: #ffffff !important;
+  padding: 10px 15px !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field {
+  margin: 3px 0 !important;
+  padding: 3px 0 !important; }
+
+.so-panels-dialog .so-content {
+  background-color: #ffffff !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-repeater-top {
+  background-color: #006799 !important;
+  border-color: #006799 !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-repeater-add {
+  padding: 15px 10px !important;
+  background-color: rgba(49, 151, 214, 0.15) !important;
+  border-color: transparent !important;
+  font-size: 15px !important; }
+
+.so-panels-dialog .so-title-bar h3.so-title {
+  width: auto; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-repeater-top h3 {
+  color: #ffffff !important;
+  background-color: #006799 !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater
+.siteorigin-widget-field-repeater-items
+.siteorigin-widget-field-repeater-item
+.siteorigin-widget-field-repeater-item-top {
+  color: #ffffff !important;
+  background-color: #0085ba !important;
+  border-color: #0085ba !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater
+.siteorigin-widget-field-repeater-items
+.siteorigin-widget-field-repeater-item:not(:last-child) {
+  border-bottom: 1px solid #006799 !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field > label {
+  margin-top: 3px; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-repeater-items {
+  border: none !important;
+  background-color: #ffffff !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-expand:before, .siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-copy:before, .siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-remove:before {
+  color: #ffffff !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-repeater-items .siteorigin-widget-field-repeater-item .siteorigin-widget-field-repeater-item-form {
+  border-top: #ffffff !important;
+  padding: 10px 15px !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater .siteorigin-widget-field-repeater-items .siteorigin-widget-field-repeater-item {
+  background-color: transparent !important; }
+
+.so-panels-dialog-edit-widget .so-content.panel-dialog {
+  padding: 24px 30px; }
+
+.siteorigin-widget-form .siteorigin-widget-field-type-link .select-content-button {
+  padding: 5px 4px 3px;
+  height: 30px;
+  background-color: rgba(49, 151, 214, 0.15);
+  line-height: inherit !important; }
+
+.siteorigin-widget-form .siteorigin-widget-field-type-link .select-content-button:hover {
+  background-color: #fff; }
+
+.siteorigin-widget-form .siteorigin-widget-icon-selector-current,
+.siteorigin-widget-form .media-field-wrapper {
+  margin-top: 3px;
+  margin-bottom: 3px; }
+
+.siteorigin-widget-form .siteorigin-widget-field-type-text input,
+.siteorigin-widget-form .siteorigin-widget-field-type-select select,
+.siteorigin-widget-form .siteorigin-widget-font-selector select {
+  margin-top: 0;
+  margin-bottom: 6px; }
+
+.siteorigin-widget-form .siteorigin-widget-field > label.so-checkbox-label {
+  max-width: 300px; }
+
+.siteorigin-widget-field hr {
+  border-bottom: none;
+  border-color: #eeeeee; }
+
+/* demo importer fix */
+.wbc_importer .theme-browser .wrap-importer .theme-actions {
+  top: auto;
+  bottom: 0;
+  transform: none; }
+
+/* theme options */
+.right-column {
+  text-align: right; }
+  .right-column a {
+    display: block;
+    text-decoration: none; }
+
+/* theme options header */
+#orion-to-header .display_header .right-column .wrapper {
+  display: inline-block; }
+
+#orion-to-header .text-right {
+  float: right; }
+
+/* remove widget preview button as it is not working properly*/
+.so-panels-dialog-wrapper .siteorigin-widget-preview-button {
+  display: none; }
+
+/* admin bar icon */
+.ab-icon.orion-icon {
+  height: 20px;
+  width: 20px;
+  background-image: url("../img/orion-logo-d.png") !important;
+  background-size: 100%; }
+
+.block-editor .orion-widget-placeholder > .components-placeholder__label {
+  background: url("../img/orion-logo-d.png") no-repeat left;
+  background-size: 20px;
+  padding-left: 25px; }
+
+#wp-toolbar > #wp-admin-bar-root-default #wp-admin-bar-orion-theme-options .ab-icon.orion-icon {
+  height: 20px !important;
+  width: 20px !important;
+  position: relative !important;
+  background-image: url("../img/orion-logo-l.png") !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 75%; }
+
+.redux-group-menu .el-gift {
+  color: #0085ba;
+  opacity: 1;
+  font-size: 20px; }
+
+/* Show input field on SO slider */
+.siteorigin-widget-form .siteorigin-widget-field.siteorigin-widget-field-type-slider {
+  position: relative; }
+
+.siteorigin-widget-form .siteorigin-widget-field.siteorigin-widget-field-type-slider input[type="number"] {
+  display: inline-block;
+  position: absolute;
+  top: 34px;
+  height: 30px;
+  line-height: 32px;
+  text-align: center;
+  max-width: 50px;
+  padding-left: 0;
+  padding-right: 2px; }
+
+.siteorigin-widget-form .siteorigin-widget-field.siteorigin-widget-field-type-slider .siteorigin-widget-slider-wrapper {
+  margin-left: 60px; }
+
+.siteorigin-widget-form .siteorigin-widget-field.siteorigin-widget-field-type-slider .siteorigin-widget-slider-value {
+  display: none; }
+
+.siteorigin-widget-form .siteorigin-widget-field .siteorigin-widget-description {
+  color: #BABABA !important;
+  font-style: normal !important; }
+
+.siteorigin-widget-form
+.siteorigin-widget-field-repeater
+.siteorigin-widget-field-repeater-add {
+  color: #0085ba !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .siteorigin-widget-form
+.siteorigin-widget-field-repeater
+.siteorigin-widget-field-repeater-add:after {
+    content: ' +';
+    font-size: 20px; }
+
+.siteorigin-widget-form .siteorigin-widget-field-repeater
+.siteorigin-widget-field-repeater-add:hover {
+  color: #006799 !important; }
+
+/* Revolution slider backend */
+#activation_dw .rs-dash-title-button.rs-status-red {
+  display: none; }
+
+.rs-dashboard {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .rs-dashboard #activation_dw {
+    -ms-flex-order: 6;
+    order: 6; }
+
+/* so bugfix: pushes down the cell options in page builder */
+.so-panels-dialog .so-sidebar .so-visual-styles {
+  height: auto; }
+
+/* Gutenberg */
+.postbox.gutenhide {
+  display: none; }
+
+.postbox.gutenshow {
+  display: block !important; }
+
+.siteorigin-widget-teaser {
+  display: none; }
+
+.redux-main .wp-picker-container .wp-color-result-text {
+  line-height: 28px; }
+
+.wp-picker-container .wp-color-result {
+  border-color: #bbb; }
+
+/* theme colors siteorigin rows */
+.so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] {
+  font-size: 0;
+  display: inline;
+  box-shadow: none; }
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input {
+    font-size: 16px; }
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"] {
+    border-radius: 100%;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    border: none;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-right: 7px;
+    box-shadow: 0 0 0 1px #d8d8d8; }
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"]:checked {
+    border: 4px solid rgba(255, 255, 255, 0.2) !important;
+    outline: none; }
+    .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"]:checked:before {
+      display: none; }
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"]:hover {
+    border: 4px solid rgba(255, 255, 255, 0.1) !important; }
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="clear"]:hover,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-white"]:hover,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-content-bg"]:hover,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="color_white"]:hover,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="color_sitebg"]:hover,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-sitebg"]:hover,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="color_altsitebg"]:hover,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-altsitebg"]:hover {
+    border: 4px solid rgba(0, 0, 0, 0.05) !important; }
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="clear"]:checked,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-white"]:checked,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="color_white"]:checked,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-content-bg"]:checked,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="color_sitebg"]:checked,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-sitebg"]:checked,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="color_altsitebg"]:checked,
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="bg-altsitebg"]:checked {
+    border: 4px solid rgba(0, 0, 0, 0.1) !important; }
+  .so-panels-dialog .so-visual-styles .style-field-radio label[for*=orion_theme_colors] input[type="radio"][value="clear"] {
+    background: linear-gradient(135deg, #f7f7f7 1%, #f7f7f7 49%, #d8d8d8 51%, #f7f7f7 53%, #f7f7f7 100%); }
+
+.so-sidebar input[value="custom"] {
+  background-image: url("../img/rainbow-radio.png") !important;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+/*live editor mobile size */
+.live-editor-mobile-mode .so-preview > iframe {
+  width: 360px !important; }
+
+/*live editor tablet size */
+.live-editor-tablet-mode .so-preview > iframe {
+  width: 770px !important; }
+
+/*Redux 4 updates */
+.redux-container #redux-header-orion .display_header {
+  width: calc(100% - 40px);
+  margin: 20px 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+#info-info_demo_importer_settings + table #dentalia-wbc_demo_importer {
+  display: none; }
+
+#info-info_demo_importer_settings + table td {
+  padding: 0 !important; }
+
+.redux-field.wbc_importer {
+  padding-top: 20px; }
+
+#redux-header-orion .logo img {
+  max-width: 240px; }
+
+/*ported from plugin updates */
+#orion-to-header .display_header {
+  padding: 30px;
+  background-color: #fff; }
+
+#orion-to-header .display_header .logo {
+  max-width: 160px;
+  display: block; }
+
+#orion-to-header .display_header .logo img {
+  max-width: 100%; }
+
+#orion-to-header .display_header h2 {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 6px; }
+
+/* hide annoying revslider upsell notification */
+.wp-list-table.plugins #revslider-update {
+  display: none; }
